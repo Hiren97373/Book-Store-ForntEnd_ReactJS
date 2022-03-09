@@ -1,0 +1,48 @@
+ul{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: none;
+}
+
+li{
+    padding: 81px;
+    width: 50px;
+    margin: 10px;
+    max-width: 250px;
+    max-height: 400px;
+}
+.card{
+    margin: 6px;
+    padding: 1rem;
+    height: 250px;
+    width: 150px;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+    justify-content: center;
+}
+
+.card img {
+    width: 150px;
+    height: 115px;
+
+}
+
+.card article{
+    padding: 5px;
+}
+
+.card h3{
+    padding: 4px;
+
+}
+
+.card p{
+    padding: 3px;
+}
